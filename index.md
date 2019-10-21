@@ -3,8 +3,21 @@ layout: default
 --- 
 
 
-### XBA Coaches
+## XBA Coaches
 
-### XPM Coaches
+<!-- replace script that writes out all XBA coaches -->
 
-### Other Awesome people
+ * [Chris Young](./directory/chris-young.md) 
+ * [Darsweil Rogers](./directory/darsweil-rogers.md)
+ * [Doc List](./directory/doc-list.md)
+
+## XPM Coaches
+
+<!-- replace script that writes out all XPM coaches -->
+
+ * [Chris Young](./directory/chris-young.md) 
+ * [Marijn van der Zee](./directory/marijn-van-der-zee.md)
+
+## Practitioners
+
+<!-- List of other people -->
