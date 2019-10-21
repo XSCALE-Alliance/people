@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- template for a person -->
+
+<h2>{{ page.title }}</h2>
+
+<img class="mugshot" src="{{ page.image_url }}"
+     width="200px"
+     style="float:right;margin:5px;">
+
+{{ content }}
+
+<hr/>
+
+<nav>
+  <li><a href="{{ page.linkedin }}">LinkedIn</a></li>
+  <li><a href="{{ page.github }}">Github</a></li>
+  <li><a href="{{ page.twitter }}">Twitter</a></li>
+  <li><a href="{{ page.contact }}">Contact</a></li>
+</nav>
