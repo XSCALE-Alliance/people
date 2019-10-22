@@ -22,5 +22,5 @@ I have been active in the field of software development for well over fifteen ye
 I work in an open and transparent way, sometimes confronting, 
 but always respectful towards people and with the organization's goals in mind. 
 I think I'm skillful and knowledgeable, 
-yet I continuously find that there are better ways 
-to go about my work and that there still is much to learn.
+yet I continuously find that there are better ways to go about my work.
+There still is much for me to learn.
