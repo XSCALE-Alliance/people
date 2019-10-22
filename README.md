@@ -2,7 +2,10 @@
 
 This website showcases the people that make up the XSCALE learning ecosystem.
 
-It is a Jekyll powered static website that is easily embedded in our XSCALE website.
+The website is published at http://xscalealliance.org/people/.
+
+It is a Jekyll powered static website, hosted on Github pages.
+In due time we will embed it in our XSCALE website.
 
 
 ### Contributing
