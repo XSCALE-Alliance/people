@@ -1,23 +1,47 @@
 ---
 layout: default
+title: XSCALE learning ecosystem
 --- 
 
+{% assign pages_list = site.pages %}
 
-## XBA Coaches
+<h2>XBA Coaches</h2>
 
-<!-- replace script that writes out all XBA coaches -->
+<ul>
 
- * [Chris Young](./directory/chris-young.md) 
- * [Darsweil Rogers](./directory/darsweil-rogers.md)
- * [Doc List](./directory/doc-list.md)
+{% for node in pages_list %}
+  {% if node.tags contains 'xba-coach' %}
+    {% if node.title != null %}
+      <li>
+        <a href="{{ site.url }}{{node.url}}">{{node.title}}</a>
+        <ul class="tag_box inline">
+          {% assign tags_list = node.tags %}  
+          {% include tags_list %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
-## XPM Coaches
+</ul>
 
-<!-- replace script that writes out all XPM coaches -->
+<h2>XPM Coaches</h2>
 
- * [Chris Young](./directory/chris-young.md) 
- * [Marijn van der Zee](./directory/marijn-van-der-zee.md)
+<ul>
 
-## Practitioners
+{% for node in pages_list %}
+  {% if node.tags contains 'xpm-coach' %}
+    {% if node.title != null %}
+      <li>
+        <a href="{{ site.url }}{{node.url}}">{{node.title}}</a>
+        <ul class="tag_box inline">
+          {% assign tags_list = node.tags %}  
+          {% include tags_list %}
+        </ul>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
-<!-- List of other people -->
+</ul>
+
