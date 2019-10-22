@@ -1,12 +1,14 @@
 ---
 layout: person
-tags : [xpm-coach]
+tags:
+  - xpm-coach
 title: Marijn van der Zee
 linkedin: 'https://www.linkedin.com/in/marijnvanderzee'
 github: 'https://github.com/serra'
 twitter: 'https://twitter.com/marijnvanderzee'
 contact: 'https://www.serraict.com/pages/contact'
 image_url: 'https://www.serraict.com/assets/img/marijn-z2-300.png'
+published: true
 ---
 
 ### About me
@@ -22,3 +24,5 @@ but always respectful towards people and with the organization's goals in mind.
 I think I'm skillful and knowledgeable, 
 yet I continuously find that there are better ways 
 to go about my work and that there still is much to learn.
+
+<hr/>
