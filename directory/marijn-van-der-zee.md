@@ -24,5 +24,3 @@ but always respectful towards people and with the organization's goals in mind.
 I think I'm skillful and knowledgeable, 
 yet I continuously find that there are better ways 
 to go about my work and that there still is much to learn.
-
-<hr/>
