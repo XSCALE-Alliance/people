@@ -6,17 +6,22 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<img class="mugshot" src="{{ page.image_url }}"
-     width="200px"
-     style="float:right;margin:5px;">
+{% unless page.tags == empty %}
+<ul class="tag_box">
+  {% assign tags_list = page.tags %}
+  {% include tags_list %}
+</ul>
+{% endunless %}
+
+<img class="mugshot" src="{{ page.image_url }}">
 
 {{ content }}
 
 <hr/>
 
-<nav>
+<ul>
   <li><a href="{{ page.linkedin }}">LinkedIn</a></li>
   <li><a href="{{ page.github }}">Github</a></li>
   <li><a href="{{ page.twitter }}">Twitter</a></li>
   <li><a href="{{ page.contact }}">Contact</a></li>
-</nav>
+</ul>
