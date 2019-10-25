@@ -1,3 +1,15 @@
+---
+---
+
+@import "jekyll-theme-midnight.scss";
+
+
+img.mugshot {  
+  width: 200px;
+  float: right;
+  margin: 5px;
+}
+
 ul.tag_box.inline {
   padding: 0;
   list-style: none;
@@ -8,10 +20,4 @@ ul.tag_box.inline {
   font-size: smaller;
   display: inline;
 
-}
-
-img.mugshot {  
-  width: 200px;
-  float: right;
-  margin: 5px;
 }
