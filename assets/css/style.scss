@@ -1,0 +1,99 @@
+---
+---
+
+@import "jekyll-theme-midnight.scss";
+
+img.mugshot {  
+  width: 200px;
+  float: right;
+  margin: 5px;
+}
+
+ul.tag_box.inline {
+  padding: 0;
+  list-style: none;
+  display: inline;
+}
+
+.tag_box.inline li {
+  font-size: smaller;
+  display: inline;
+}
+
+@import 'libs/_vars.scss';
+@import '_fonts.scss';
+
+a {
+  border-bottom-color: transparent;
+  color: $palette_accent5;
+  text-decoration: none;
+
+  &:hover {
+    color: $palette_accent5;
+    border-bottom: dotted 1px;
+    border-bottom-color: $palette_accent5;
+  }
+}
+
+html, body, #header {
+    background: $palette-bg;
+}
+
+body, input, select, textarea {
+    color: $palette-fg;
+}
+
+body, input, select, textarea {
+  color: $palette-fg;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $palette-fg-bold;
+  font-weight: $font-weight-bold;
+  line-height: 1em;
+
+  a {
+    color: inherit;
+    border: 0;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+strong, b {
+  color: $palette-fg-bold;
+  font-weight: $font-weight-bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
+#header nav li a {
+  color: $palette-fg;
+  background-color: $palette_accent5;
+  border-color: lighten($palette_accent5, .1);
+
+  &:hover {
+    color: $palette-fg;
+    background-color: lighten($palette_accent5, .8);
+    border-color: lighten($palette_accent5, .9);
+  }
+}

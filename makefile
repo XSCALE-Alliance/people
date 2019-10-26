@@ -10,6 +10,7 @@ setup: bootstrap
 update: bootstrap
 server: console
 test: ;
-cibuild: ;
+cibuild: 
+	bundle exec jekyll build
 console:
 	bundle exec jekyll serve

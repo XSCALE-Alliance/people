@@ -1,0 +1,21 @@
+$font-family: ('Roboto', Helvetica, sans-serif);
+$font-family-fixed: ('Courier New', monospace);
+$font-weight: 100;
+$font-weight-bold: 300;
+
+$palette-bg: #1c1d26;
+$palette-bg-transparent: rgba($palette-bg ,0.95);
+$palette-fg-bold:       #fff;
+$palette-fg:            rgba($palette-fg-bold, .9);
+$palette-fg-light:      rgba($palette-fg-bold, 0.5);
+$palette-fg-lighter:    rgba($palette-fg-bold, 0.15);
+$palette-border:        rgba($palette-fg-bold, 0.3);
+$palette-border-bg:     rgba($palette-fg-bold, 0.075);
+$palette-border2:       rgba($palette-fg-bold, 0.5);
+$palette-border2-bg:    rgba($palette-fg-bold, 0.25);
+$palette-accent1:       #e44c65;
+$palette-accent2:       #272833;
+$palette-accent2-transparent: rgba($palette-accent2, 0.965);
+$palette-accent3:       #5480f1;
+$palette-accent4:       #39c088;
+$palette-accent5:       #ff6e81;
