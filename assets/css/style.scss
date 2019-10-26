@@ -30,7 +30,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: $palette_accent5 !important;
+    color: $palette_accent5;
     border-bottom: dotted 1px;
     border-bottom-color: $accent5;
   }
@@ -45,6 +45,13 @@ body, input, select, textarea {
 }
 
 #header nav li a {
+  color: $palette-fg;
   background-color: $palette_accent5;
   border-color: lighten($palette_accent5, .1);
+
+  &:hover {
+    color: $palette-fg;
+    background-color: lighten($palette_accent5, .8);
+    border-color: lighten($palette_accent5, .9);
+  }
 }
