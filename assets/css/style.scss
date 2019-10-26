@@ -23,7 +23,6 @@ ul.tag_box.inline {
 @import 'libs/_vars.scss';
 @import 'libs/_functions.scss';
 
-
 a {
   border-bottom-color: transparent;
   color: $palette_accent5;
@@ -32,7 +31,7 @@ a {
   &:hover {
     color: $palette_accent5;
     border-bottom: dotted 1px;
-    border-bottom-color: $accent5;
+    border-bottom-color: $palette_accent5;
   }
 }
 
