@@ -3,7 +3,6 @@
 
 @import "jekyll-theme-midnight.scss";
 
-
 img.mugshot {  
   width: 200px;
   float: right;
@@ -19,5 +18,33 @@ ul.tag_box.inline {
 .tag_box.inline li {
   font-size: smaller;
   display: inline;
+}
 
+@import 'libs/_vars.scss';
+@import 'libs/_functions.scss';
+
+
+a {
+  border-bottom-color: transparent;
+  color: $palette_accent5;
+  text-decoration: none;
+
+  &:hover {
+    color: $palette_accent5 !important;
+    border-bottom: dotted 1px;
+    border-bottom-color: $accent5;
+  }
+}
+
+html, body, #header {
+    background: $palette-bg;
+}
+
+body, input, select, textarea {
+    color: $palette-fg;
+}
+
+#header nav li a {
+  background-color: $palette_accent5;
+  border-color: lighten($palette_accent5, .1);
 }
