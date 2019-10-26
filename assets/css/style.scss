@@ -21,7 +21,7 @@ ul.tag_box.inline {
 }
 
 @import 'libs/_vars.scss';
-@import 'libs/_functions.scss';
+@import '_fonts.scss';
 
 a {
   border-bottom-color: transparent;
@@ -41,6 +41,49 @@ html, body, #header {
 
 body, input, select, textarea {
     color: $palette-fg;
+}
+
+body, input, select, textarea {
+  color: $palette-fg;
+  font-family: $font-family;
+  font-weight: $font-weight;
+  line-height: 1.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $palette-fg-bold;
+  font-weight: $font-weight-bold;
+  line-height: 1em;
+
+  a {
+    color: inherit;
+    border: 0;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.5em;
+  letter-spacing: -0.025em;
+}
+
+h3 {
+  font-size: 1.35em;
+  line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+strong, b {
+  color: $palette-fg-bold;
+  font-weight: $font-weight-bold;
+}
+
+em, i {
+  font-style: italic;
 }
 
 #header nav li a {

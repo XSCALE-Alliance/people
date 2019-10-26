@@ -1,11 +1,7 @@
-// Font.
-	$font: (
-		family:				('Roboto', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
-		weight:				100,
-		weight-bold:		300
-	);
-
+$font-family: ('Roboto', Helvetica, sans-serif);
+$font-family-fixed: ('Courier New', monospace);
+$font-weight: 100;
+$font-weight-bold: 300;
 
 $palette-bg: #1c1d26;
 $palette-bg-transparent: rgba($palette-bg ,0.95);
