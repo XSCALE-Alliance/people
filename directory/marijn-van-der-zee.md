@@ -7,8 +7,7 @@ linkedin: 'https://www.linkedin.com/in/marijnvanderzee'
 github: 'https://github.com/serra'
 twitter: 'https://twitter.com/marijnvanderzee'
 contact: 'https://www.serraict.com/pages/contact'
-image_url: 'https://www.serraict.com/assets/img/marijn-z2-300.png'
-published: true
+image_url: 'https://www.gravatar.com/avatar/6b81da1d616ad76800dc9f8ac5a56619?s=200'
 ---
 
 ### About me
