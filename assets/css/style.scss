@@ -20,6 +20,18 @@ ul.tag_box.inline {
   display: inline;
 }
 
+ul.social_box.inline {
+  padding: 0;
+  list-style: none;
+}
+
+.social_box.inline li {
+  font-size: xx-large;
+  display: inline;
+  padding: 3px;
+}
+
+
 @import 'libs/_vars.scss';
 @import '_fonts.scss';
 
