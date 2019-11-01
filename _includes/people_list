@@ -1,0 +1,13 @@
+{% for node in people %}
+    {% if node.title != null %}
+      <li>
+        <a href="{{ site.url }}{{node.url}}">{{node.title}}</a>
+        <ul class="tag_box inline">
+          {% assign tags_list = node.tags %}  
+          {% include tags_list %}
+        </ul>
+      </li>
+    {% endif %}
+{% endfor %}
+
+{% assign people = nil %}
