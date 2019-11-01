@@ -9,6 +9,8 @@ img.mugshot {
   margin: 5px;
 }
 
+/* Tag boxes */
+
 ul.tag_box.inline {
   padding: 0;
   list-style: none;
@@ -19,6 +21,8 @@ ul.tag_box.inline {
   font-size: smaller;
   display: inline;
 }
+
+/* social box */
 
 ul.social_box.inline {
   padding: 0;
@@ -31,6 +35,21 @@ ul.social_box.inline {
   padding: 3px;
 }
 
+/* page menu */
+
+nav.page_menu {
+  float: right;
+
+  li {
+    display: inline;
+  }
+}
+
+footer {
+  font-size: smaller;
+}
+
+/* xscalealliance.org styles */
 
 @import 'libs/_vars.scss';
 @import '_fonts.scss';
@@ -96,16 +115,4 @@ strong, b {
 
 em, i {
   font-style: italic;
-}
-
-#header nav li a {
-  color: $palette-fg;
-  background-color: $palette_accent5;
-  border-color: lighten($palette_accent5, .1);
-
-  &:hover {
-    color: $palette-fg;
-    background-color: lighten($palette_accent5, .8);
-    border-color: lighten($palette_accent5, .9);
-  }
 }
