@@ -21,4 +21,4 @@ Darsweil has spent extensive time studying the nature of human interaction inclu
 
 Darsweil current serves as Chair of the board of the Fayetteville Public Works Commission a $1.1 Billion asset municipal utility providing electric, water and waste water to Cumberland County NC. He also served as interim CEO of the Greater Fayetteville Chamber.  He has advised hundreds of businesses in diverse industries including hospitality, contract manufacturing, professional services, information management and processing, wholesale distribution, funeral services, and financial services. 
 
-Darsweil holds a Bachelor’s in Business from Howard University. He has served as the executive coaching resource for the Howard Executive MBA program. He has been a guest lecturer and speaker and is authoring his first book; The Art of Making More Money is Less Time a Guide for Senior Executive and Entrepreneurs. 
+
