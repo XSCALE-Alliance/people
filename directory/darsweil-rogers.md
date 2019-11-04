@@ -7,9 +7,9 @@ description: >
   Darsweil Rogers' profile page - XSCALE Business Agility Coach.
   XSCALE: A learning ecosystem for eXponential Simple Continuous Autonomous Learning Ecosystems
 image:
-linkedin:
+linkedin:https://www.linkedin.com/in/dlrogers/
 github:
-twitter:
+twitter:https://twitter.com/darsweilrogers
 contact:
 ---
 
