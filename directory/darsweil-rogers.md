@@ -10,7 +10,7 @@ image: https://media.licdn.com/dms/image/C5103AQHmTuEznm0fQg/profile-displayphot
 linkedin: https://www.linkedin.com/in/dlrogers/
 github:
 twitter: https://twitter.com/darsweilrogers
-contact: www.CFPInnovation.com
+contact: https://www.CFPInnovation.com
 ---
 
 <!-- Write your personal summary below. You can use Markdown formatting. -->
