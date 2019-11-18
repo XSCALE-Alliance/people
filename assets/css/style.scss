@@ -116,3 +116,19 @@ strong, b {
 em, i {
   font-style: italic;
 }
+
+#header {
+  border: none;
+}
+
+#header nav li a {
+  color: $palette-fg;
+  background-color: $palette_accent5;
+  border-color: lighten($palette_accent5, .1);
+
+  &:hover {
+    color: $palette-fg;
+    background-color: lighten($palette_accent5, .8);
+    border-color: lighten($palette_accent5, .9);
+  }
+}
