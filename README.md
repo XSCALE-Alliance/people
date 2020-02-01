@@ -1,3 +1,8 @@
+# THIS REPOSITORY IS ARCHIVED
+
+The people directory has moved to the XSCALE alliance website at https://github.com/XSCALE-Alliance/XSCALE-Alliance.github.io.
+
+
 ## People
 
 This website showcases the people that make up the XSCALE learning ecosystem.
